@@ -6,7 +6,7 @@ public class Circle extends Shape{
     public Circle(float radio)
     {
         super("Circle");
-        this.radio=radio;
+        this.radio = radio;
     }
 
     public float getArea(){
@@ -19,5 +19,10 @@ public class Circle extends Shape{
     public float getSidesCount()
     {
         return 1;
+    }
+
+    @Override
+    public String toString(){
+        return "o";
     }
 }

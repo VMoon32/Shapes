@@ -2,6 +2,7 @@ package oop.parcial2.shapes;
 
 public abstract class Shape {
     private String name;
+    //private String shape; asi no salio la figura
     protected Shape(String name)
     {
         this.name = name;

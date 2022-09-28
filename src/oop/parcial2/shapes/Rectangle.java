@@ -21,4 +21,9 @@ public class Rectangle extends Shape{
     {
         return 4;
     }
+
+    @Override
+    public String toString(){
+        return "█";
+    }
 }

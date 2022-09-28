@@ -1,6 +1,5 @@
-package oop.parcial2.shapes; //This one removed of the Main because is outside the package, espero esté bien?
+package oop.parcial2.shapes; //This one removed of the Main because marked error even tho are in the classes, hope that is not a problem.
 //Lados iguales
-
 public class Triangle extends Shape{
 
     private float height;
@@ -23,5 +22,10 @@ public class Triangle extends Shape{
     public float getSidesCount()
     {
         return 3;
+    }
+
+    @Override
+    public String toString(){
+        return "▲";
     }
 }

@@ -5,7 +5,7 @@ public class Square extends Shape{
 
     public Square(float side) //removí el "final", no llevaba ahí
     {
-        super("Square");
+        super("Square");//removí el ", "■);", no llevaba ahí
         this.side = side;
     }
 
@@ -19,5 +19,10 @@ public class Square extends Shape{
     public float getSidesCount()
     {
         return 4;
+    }
+
+    @Override
+    public String toString(){
+        return "■";
     }
 }
